@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple HTML Form</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<fieldset class="form">
+    <h1>Registration Form</h1>
+    <form action="" method="get" autocomplete="on" novalidate="yes" target="_self" class="form">
+
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" placeholder="Full Name" size="50" /> <br/>
+
+        <label for="email">Email Address:</label>
+        <input type="text" id="email" name="email"  placeholder="Email Address" size="50" /> <br/>
+
+        <label for="password">Password:</label>
+        <input type="text" id="password" name="password"  placeholder="Password" size="50" /> <br/>
+    
+    <div class="radio">
+        <label for="gender">Gender:</label>
+        <input type="radio" id="gender" name="gender" value="female"/>Female
+        <input type="radio" id="gender" name="gender" value="male"/>Male <br/>
+    </div>
+
+    <div class="checkbox">
+      <p>Select your hobbies </p>
+      <input type="checkbox" id="hobby" name="movies" value="movies"/>
+      <label for="movies">Movies</label> <br />
+
+      <input type="checkbox" id="hobby" name="swimming" value="swimming" />
+      <label for="swimming">Swimming</label> <br />
+
+      <input type="checkbox" id="hobby" name="Yoga" value="Yoga" />
+      <label for="Yoga">Yoga</label> <br />
+
+      <input type="checkbox" id="hobby" name="running" value="running" />
+      <label for="running">Running</label> <br />
+
+      <input type="checkbox" id="hobby" name="journaling" value="journaling" />
+      <label for="journaling">Journaling</label> <br />
+
+      <input type="checkbox" id="hobby" name="other" value="other" />
+      <label for="other">Others</label> <br />
+    </div>
+
+      <br />
+
+      <button type="submit">Submit Form</button>
+ </fieldset>
+    </form>
+    
+</body>
+</html>

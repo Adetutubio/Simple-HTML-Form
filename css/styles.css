@@ -1,0 +1,96 @@
+body {
+    font-family: 'Montserrat, sans-serif';
+    background-color: #2f3c4f;
+    background-image: url("../image/nature.jpeg");
+    background-repeat: round;
+    background-size: contain;
+}
+
+p {
+    font-weight: bold;
+    opacity: 0.8;
+}
+
+h1 {
+    font-size: 20px;
+    color: #2f3c4f;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    text-align: center;
+}
+
+/* Fieldset */
+
+fieldset {
+    margin: 30px auto;
+    padding: 1em 5em;
+    border-radius: 20px;
+    border: solid 1px #ffffff;
+    max-width: 300px;
+    background-color: #ffffff;
+
+}
+
+/* labels*/
+
+label {
+    display: block;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    opacity: 0.8;
+}
+
+/* input */
+
+input {
+    padding: 0.5rem;
+    border: solid 1px #999;
+    border-radius: 5px;
+}
+
+/* checkbox */
+
+.checkbox label {
+    display: inline;
+    margin-bottom: 4rem;
+    font-weight: 500;
+}
+
+.checkbox input {
+    margin-bottom: 0.5rem;
+}
+
+/* radio */
+
+.radio{
+    margin: 1rem 0;
+}
+
+.radio input{
+    margin-top: 0.5rem;
+}
+
+/* button */
+
+button {
+    border-radius: 25px;
+    margin: 10px auto;
+    display: block;
+    background-color: #2f3c4f;
+    border: 1px solid #2f3c4f;
+    color: #ffffff;
+    font-size: 16px;
+    font-family: inherit;
+    line-height: 1.8;
+    padding: 5px 20px;
+    text-decoration: none;
+    transition: all 200ms ease;
+  }
+
+  button:hover {
+    color: #2f3c4f;
+    background: #ffffff;
+    cursor: pointer;
+  }
